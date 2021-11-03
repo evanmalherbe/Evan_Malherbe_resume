@@ -1,4 +1,4 @@
-# HyperionDev Full Stack Web Development Bootcamp - Level 1 Task 15 - Capstone project 2 - Online store
+# HyperionDev Full Stack Web Development Bootcamp - Level 2 Task 6 - Resume website
 
 ## Description
 This is a resume or CV website for myself (Evan Malherbe) that provides a demonstration of my web design skills, as well as providing
