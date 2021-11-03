@@ -1,0 +1,189 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+    box-sizing: border-box;
+    
+}
+
+h1, h2, h3 {
+    color: black;
+
+}
+
+p {
+    line-height: 1.8em;
+    color: black; 
+}
+
+.header {
+    background-color: #062031;
+    
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+
+    height: 5em;
+    margin-bottom: 1em;
+}
+
+.headerText {
+    color: #DCDCDC;
+    margin-left: 1em;
+    font-size: 3em;
+
+    letter-spacing: 5px;
+}
+
+.headerLinks {
+    
+    padding: 0;
+    margin: 0px 0px 0px auto;
+   
+}
+
+.headerLinks ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 15px;
+    
+}
+
+.headerLinks li {
+    display: inline;
+    padding: 0px;
+    margin: 5px;
+}
+
+.headerLinks a {
+    color: #65ca83;
+    text-decoration: none;
+
+}
+
+.headerLinks a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+.topRow {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.bioContact {
+    display: flex;
+    flex-direction: column;
+    flex: 1.5;
+
+    margin: 15px;
+    padding: 5px 50px;
+
+}
+
+.profileImg {
+    flex: 1;
+    margin: 15px;
+}
+
+.topRow img {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    border: 1px solid #4c4c4e;
+}
+
+.skillsEdu {
+    display: flex;
+    flex-direction: row;
+    background-color: #c8eedb;
+    border-top: 1px solid #949494;
+    border-bottom: 1px solid #949494;
+
+}
+
+.skills {
+    flex: 1;
+    margin: 15px;
+    padding: 0px 0px 0px 50px;
+    
+}
+
+.education {
+    flex: 1;
+    margin: 15px;
+    padding: 0px 50px 0px 0px;
+}
+
+.workAndImg {
+    display: flex;
+    flex-direction: row;
+}
+
+.work {
+    flex: 1;
+    margin: 15px;
+    padding: 0px 50px 0px 0px;
+}
+
+.workImg {
+    
+    flex: 1;
+    margin: 15px;
+    padding: 0px 0px 0px 50px;
+}
+
+.workImg img {
+    margin: 0;
+
+    width: 100%;
+    height: auto;
+    border: 1px solid #4c4c4e;
+
+}
+
+.projects {
+    background-color: #c8eedb;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #949494;
+    border-bottom: 1px solid #949494;
+    padding-bottom: 50px;
+}
+
+.project1 {
+    
+    margin: 15px;
+    padding: 0px 0px 0px 50px;
+    
+}
+
+.project2 {
+    
+    margin: 15px;
+    padding: 45px 50px 0px 0px;
+    
+}
+
+.projects img {
+    width: 100%;
+    height: auto;
+
+    margin: 0;
+    padding: 0;
+    border: 1px solid #95a3a3;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #062031;
+    color: #65ca83;
+    height: 3em;
+
+}
