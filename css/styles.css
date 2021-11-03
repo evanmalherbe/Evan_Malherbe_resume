@@ -1,28 +1,35 @@
+/* Styling for Evan Malherbe resume website - Level 2 task 6 */
+/* I used this website to find nice colours to use: https://www.w3schools.com/cssref/css_colors.asp */
 body {
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 
+    /* Makes sizing elements easier, as padding and border are included in size. Learned about it here:
+    https://www.w3schools.com/cssref/css3_pr_box-sizing.asp-+ */
     box-sizing: border-box;
-    
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: black;
-
 }
 
+/* Learned about using "em" instead of pixels (px) for sizing elements, since em makes them resize dynamically when the user's 
+screen size is different. Used this website: https://chiamakaikeanyi.dev/sizing-in-css-px-vs-em-vs-rem/ */
 p {
     line-height: 1.8em;
-    color: black; 
+    color: black;
 }
 
+/* Styling of header section and navigation links */
 .header {
     background-color: #062031;
-    
+
     display: flex;
     flex-direction: row;
-    
+
     align-items: center;
 
     height: 5em;
@@ -34,27 +41,27 @@ p {
     margin-left: 1em;
     font-size: 3em;
 
-    letter-spacing: 5px;
+    letter-spacing: 0.2em;
 }
 
 .headerLinks {
-    
+
     padding: 0;
-    margin: 0px 0px 0px auto;
-   
+    margin: 0em 0em 0em auto;
+
 }
 
 .headerLinks ul {
     padding: 0;
     list-style-type: none;
-    margin: 15px;
-    
+    margin: 1.5em;
+
 }
 
 .headerLinks li {
     display: inline;
-    padding: 0px;
-    margin: 5px;
+    padding: 0;
+    margin: 0.2em;
 }
 
 .headerLinks a {
@@ -68,11 +75,10 @@ p {
     color: white;
 }
 
-
+/* Styling for top section with bio and profile image */
 .topRow {
     display: flex;
     flex-direction: row;
-    
 }
 
 .bioContact {
@@ -80,16 +86,19 @@ p {
     flex-direction: column;
     flex: 1.5;
 
-    margin: 15px;
-    padding: 5px 50px;
-
+    margin: 1em;
+    padding: 1em 3em;
 }
 
 .profileImg {
     flex: 1;
-    margin: 15px;
+    margin: 1em;
+    padding: 0em 3em 0em 0em;
+
 }
 
+/* This website helped me ensure that my images would retain their aspect ratio when resized: 
+https://stackoverflow.com/questions/3751565/css-100-width-or-height-while-keeping-aspect-ratio */
 .topRow img {
     margin: 0;
     width: 100%;
@@ -97,28 +106,29 @@ p {
     border: 1px solid #4c4c4e;
 }
 
+/* Styling for skills and education section */
 .skillsEdu {
     display: flex;
     flex-direction: row;
     background-color: #c8eedb;
     border-top: 1px solid #949494;
     border-bottom: 1px solid #949494;
-
 }
 
 .skills {
     flex: 1;
-    margin: 15px;
-    padding: 0px 0px 0px 50px;
-    
+    margin: 1em;
+    padding: 0em 0em 0em 3em;
+
 }
 
 .education {
     flex: 1;
-    margin: 15px;
-    padding: 0px 50px 0px 0px;
+    margin: 1em;
+    padding: 0em 3em 0em 0em;
 }
 
+/* Styling for work experience section */
 .workAndImg {
     display: flex;
     flex-direction: row;
@@ -126,15 +136,15 @@ p {
 
 .work {
     flex: 1;
-    margin: 15px;
-    padding: 0px 50px 0px 0px;
+    margin: 1em;
+    padding: 0em 3em 0em 0em;
 }
 
 .workImg {
-    
+
     flex: 1;
-    margin: 15px;
-    padding: 0px 0px 0px 50px;
+    margin: 1em;
+    padding: 0em 0em 0em 3em;
 }
 
 .workImg img {
@@ -146,27 +156,25 @@ p {
 
 }
 
+/* Styling for projects section */
 .projects {
     background-color: #c8eedb;
     display: flex;
     flex-direction: row;
     border-top: 1px solid #949494;
     border-bottom: 1px solid #949494;
-    padding-bottom: 50px;
+    padding-bottom: 3em;
 }
 
 .project1 {
-    
-    margin: 15px;
-    padding: 0px 0px 0px 50px;
-    
+    margin: 1em;
+    padding: 0em 0em 0em 3em;
 }
 
 .project2 {
-    
-    margin: 15px;
-    padding: 45px 50px 0px 0px;
-    
+    margin: 1em;
+    padding: 2.9em 3em 0em 0em;
+
 }
 
 .projects img {
@@ -178,6 +186,7 @@ p {
     border: 1px solid #95a3a3;
 }
 
+/* Styling for footer section */
 .footer {
     display: flex;
     align-items: center;
