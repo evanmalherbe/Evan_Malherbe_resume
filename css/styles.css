@@ -16,9 +16,13 @@ h3 {
     color: black;
 }
 
+h1 {
+    font-size: 32px;
+}
+
 /* Learned about using "em" instead of pixels (px) for sizing elements, since em makes them resize dynamically when the user's 
 screen size is different. Used this website: https://chiamakaikeanyi.dev/sizing-in-css-px-vs-em-vs-rem/ */
-p {
+p, li, a {
     line-height: 1.8em;
     color: black;
 }
